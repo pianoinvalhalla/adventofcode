@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+"""monkeymath.py: Solution to Advent of Code 2022 Day 21, Part 1
+Advent of Code can be found at https://adventofcode.com/2022"""
+
+__author__ = "Vincent Mateo"
+__email__ = "pianoinvalhalla@gmail.com"
+
 input = open('input.txt','r')
 jobs = {}
 
