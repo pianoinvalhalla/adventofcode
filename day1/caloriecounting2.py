@@ -6,7 +6,7 @@ mostCalories = [0,0,0]
 for line in input:
     try:
         calories += int(line)
-#        print int(line)
+#        print(int(line))
     except:
         if calories > mostCalories[0]:
             mostCalories[2] = mostCalories[1]
@@ -17,8 +17,8 @@ for line in input:
             mostCalories[1] = calories
         elif calories > mostCalories[2]:
             mostCalories[2] = calories
-        print calories
+        print(calories)
         calories = 0
-print ''
-print mostCalories
-print mostCalories[0]+mostCalories[1]+mostCalories[2]
+print('')
+print(mostCalories)
+print(mostCalories[0]+mostCalories[1]+mostCalories[2])

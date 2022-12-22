@@ -10,7 +10,7 @@ for line in input:
     except:
         if calories > mostCalories:
             mostCalories = calories
-        print calories
+        print(calories)
         calories = 0
-print ''
-print mostCalories
+print('')
+print(mostCalories)
