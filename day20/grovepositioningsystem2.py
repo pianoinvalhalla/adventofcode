@@ -25,7 +25,7 @@ class CoordinateNode:
             if (curr == None):
                 break
 
-input = open('example.txt','r')
+input = open('input.txt','r')
 DECRYPTION_KEY = 811589153
 
 #READING INPUT FILE INTO DOUBLY/SINGLY LINKED LIST
